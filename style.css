@@ -1,0 +1,38 @@
+.row{
+  padding: 0 2.5%;
+}
+.input-field>label{
+  color: #00695c;
+}
+.odd{background-color:#e0f2f1;}
+.ingredients-container.row{margin-bottom:0px;}
+.directions-header-container .col.s12.odd, .directions-header-container .col.s12.even{
+  padding: 5% 0;
+}
+.btn{margin: 0 1% !important;min-width:200px;}
+h1, h2, h3, h4{
+  font-family: "Merriweather", sans-serif;
+}
+.form{
+  border-right: 1px solid #f1f1f1;
+}
+@media only screen and (max-width: 600px) {
+  .valign-wrapper { display: inherit; }
+  .btn{margin: 7.5px 0 !important;}
+  .form{
+    border-right: 0px solid #f1f1f1;
+  }
+}
+.json-output{
+  opacity:.3;
+}
+.copy{
+  position:fixed;
+  right: 5%;
+  bottom:5%;
+}
+hr{
+  height: 1px;
+        background-color: #f1f1f1;
+        border: none;
+}
